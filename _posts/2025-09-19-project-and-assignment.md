@@ -3,6 +3,9 @@ title: "Projects And Assignments"
 date: 2026-01-01  
 categories: [projects] 
 tags: [Projects, campus, student] 
+image:
+  path: /assets/img/routine-1.jpg
+  alt: Daily student routine
 ---
 ## 📊 Projects and Assignments
 
