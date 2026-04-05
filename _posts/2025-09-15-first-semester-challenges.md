@@ -1,7 +1,7 @@
 ---
 title: "First Symester Challenges"
 date: 2025-09-15 
-categories: [University Life]
+categories: [challenges , faced]
 ---
 ## ⚡ First Semester Challenges
 
