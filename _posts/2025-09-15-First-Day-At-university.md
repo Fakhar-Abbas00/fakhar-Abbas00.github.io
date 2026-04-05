@@ -13,7 +13,9 @@ image:
 
 ### 1. Feeling Nervous and Excited
 Most students feel a mix of excitement and nervousness as they enter a completely new environment.
-
+<p align="center">
+  <img src="/assets/img/first-day -at-uni-by-fakhar.jpeg" alt="title" width="900"/>
+</p>
 ### 2. Exploring the Campus
 Walking around the campus helps students become familiar with classrooms, labs, and facilities.
 
