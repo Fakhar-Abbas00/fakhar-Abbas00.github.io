@@ -3,6 +3,9 @@ title: "meeting new friend"
 date: 2026-01-01 10:00:00 +0500 
 categories: [friends making] 
 tags: [friends, campus, student] 
+image:
+  path: /assets/img/routine-1.jpg
+  alt: Daily student routine
 ---
 ## 🤝 Meeting New People
 
