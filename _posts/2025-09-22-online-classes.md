@@ -3,6 +3,9 @@ title: "Online Classe"
 date: 2026-01-01 
 categories: [classes] 
 tags: [online Classes, student] 
+image:
+  path: /assets/img/routine-1.jpg
+  alt: Daily student routine
 ---
 ## 💻 Online Classes
 
