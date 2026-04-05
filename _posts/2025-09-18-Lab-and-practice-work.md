@@ -3,6 +3,9 @@ title: "Labs And Practice Work"
 date: 2026-01-01 
 categories: [practicals] 
 tags: [labs, campus, student] 
+image:
+  path: /assets/img/routine-1.jpg
+  alt: Daily student routine
 ---
 
 ## 🔬 Labs and Practical Work
