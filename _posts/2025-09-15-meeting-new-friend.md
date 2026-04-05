@@ -12,7 +12,7 @@ image:
 ### 1. Making New Friends
 Students meet people from different backgrounds and build friendships.
 <p align="center">
-  <img src="/assets/images/fakhar-3.jpeg" alt="title" width="900"/>
+  <img src="/assets/images/fakhar3.jpeg" alt="title" width="900"/>
 </p>
 ### 2. Group Discussions
 Discussing topics in groups improves understanding and critical thinking.
