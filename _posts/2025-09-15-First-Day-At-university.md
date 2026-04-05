@@ -4,7 +4,7 @@ date: 2026-01-01 10:00:00 +0500
 categories: [University Life] 
 tags: [first day, campus, student] 
 image:
-  path: /assets/img/routine-1.jpg
+  path: /assets/img/first-day -at-uni-by-fakhar.jpeg
   alt: Daily student routine
 ---
 
