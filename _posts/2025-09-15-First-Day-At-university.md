@@ -19,10 +19,10 @@ Most students feel a mix of excitement and nervousness as they enter a completel
 ### 2. Exploring the Campus
 Walking around the campus helps students become familiar with classrooms, labs, and facilities.
 <p align="center">
-  <img src="/assets/images/first-day-at-uni-by-fakhar.jpg" alt="title" width="900"/>
+  <img src="/assets/images/fakhar-2.jpg" alt="title" width="900"/>
 </p>
 ### 3. Meeting Teachers and Classmates
 Introducing yourself to teachers and classmates helps in building early connections.
 <p align="center">
-  <img src="/assets/images/first-day-at-uni-by-fakhar.jpg" alt="title" width="900"/>
+  <img src="/assets/images/fakhar-2.jpg" alt="title" width="900"/>
 </p>
