@@ -3,6 +3,9 @@ title: "Midterm and Final Exams"
 date: 2026-01-01 
 categories: [Exams] 
 tags: [mid,final,exams, campus, student] 
+image:
+  path: /assets/img/routine-1.jpg
+  alt: Daily student routine
 ---
 ## 📝 Midterm and Final Exams
 
