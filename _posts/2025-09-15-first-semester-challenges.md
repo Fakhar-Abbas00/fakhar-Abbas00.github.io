@@ -1,8 +1,7 @@
 ---
-title: "My First Day at University"
-date: 2026-01-01 10:00:00 +0500
+title: "First Symester Challenges"
+date: 2025-09-15 
 categories: [University Life]
-tags: [first day, campus, student]
 ---
 ## ⚡ First Semester Challenges
 
