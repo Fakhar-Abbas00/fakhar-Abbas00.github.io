@@ -1,7 +1,6 @@
 ---
-layout: default
-title: Contact-Me
-permalink: /contact/
+layout: page
+title: Contact
 ---
 
 <div class="contact-container">
