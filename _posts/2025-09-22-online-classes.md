@@ -22,5 +22,5 @@ Self-discipline is required to maintain a proper study routine.
 ### 3. Internet Issues
 Connectivity problems can interrupt learning and concentration.
 <p align="center">
-  <img src="/assets/images/fakhar11.jpg" alt="title" width="900"/>
+  <img src="/assets/images/fakhar-11.jpeg" alt="title" width="900"/>
 </p>
