@@ -51,3 +51,356 @@ permalink: /about/
   </div>
 
 </div>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>{{ page.title }}</title>
+
+
+<style>
+
+p {
+  font-size: 17px;
+  line-height: 1.7;
+  color: #d1d5db;
+}
+  
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+  /* FLEX POST LAYOUT */
+.post-flex {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin: 30px 0;
+  flex-wrap: wrap;
+}
+
+/* IMAGE SIDE */
+.post-flex img {
+  width: 45%;
+  max-height: 250px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+/* TEXT SIDE */
+.post-text {
+  width: 50%;
+}
+
+/* RESPONSIVE (MOBILE) */
+@media (max-width: 768px) {
+  .post-flex {
+    flex-direction: column;
+  }
+
+  .post-flex img,
+  .post-text {
+    width: 100%;
+  }
+}
+  
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* BODY */
+body {
+  background: linear-gradient(135deg, #0f172a, #020617);
+  color: white;
+}
+
+/* NAVBAR */
+.navbar {
+  position: sticky;
+  top: 0;
+  backdrop-filter: blur(15px);
+  background: rgba(0,0,0,0.4);
+  padding: 15px;
+  text-align: center;
+  z-index: 1000;
+}
+
+.navbar a {
+  color: white;
+  margin: 0 20px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.navbar a:hover {
+  color: #00f2fe;
+}
+
+/* CONTAINER */
+.container {
+  padding: 40px;
+  max-width: 900px;
+  margin: auto;
+}
+
+/* SEARCH */
+.search {
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  margin-bottom: 20px;
+  outline: none;
+}
+
+/* CARD UI */
+.post-card {
+  background: rgba(255,255,255,0.07);
+  backdrop-filter: blur(15px);
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 18px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.post-card:hover {
+  transform: translateY(-6px);
+  background: rgba(0,255,255,0.08);
+}
+}
+
+/* HEADINGS */
+h1, h2, h3 {
+  margin-bottom: 10px;
+}
+
+/* IMAGE */
+img {
+  width: 100%;
+  max-height: 400px;   /* control height */
+  object-fit: cover;   /* crop nicely */
+  border-radius: 12px;
+  margin: 15px 0;
+}
+/* COMMENT BOX */
+.comment-box {
+  margin-top: 50px;
+  background: rgba(255,255,255,0.05);
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.comment-box input,
+.comment-box textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 8px;
+}
+
+.comment-box button {
+  padding: 10px;
+  background: #00f2fe;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.comment {
+  background: rgba(255,255,255,0.1);
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 8px;
+}
+
+/* ANIMATION */
+.fade {
+  animation: fade 0.6s ease;
+}
+
+@keyframes fade {
+  from {opacity: 0; transform: translateY(20px);}
+  to {opacity: 1; transform: translateY(0);}
+}
+  
+/* ABOUT PAGE UI */
+.about-container {
+  max-width: 900px;
+  margin: auto;
+}
+
+/* PROFILE CARD */
+.profile-card {
+  background: rgba(255,255,255,0.06);
+  backdrop-filter: blur(15px);
+  padding: 40px 20px;
+  border-radius: 20px;
+  text-align: center;
+  margin-bottom: 30px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;   /* ✅ CENTER EVERYTHING */
+  justify-content: center;
+}
+
+/* PROFILE IMAGE */
+.profile-card img {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+
+  display: block;
+  margin: 0 auto 15px auto;   /* ✅ PERFECT CENTER */
+
+  border: 4px solid #00f2fe;
+}
+
+  .profile-card img:hover {
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+
+/* NAME */
+.profile-card h1 {
+  margin-top: 10px;
+  font-size: 32px;
+}
+
+/* SUBTEXT */
+.profile-card p {
+  color: #cbd5e1;
+  margin-top: 5px;
+}
+
+/* PROFILE IMAGE (PERFECT CIRCLE + FACE FOCUS) */
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+
+  background-image: url("{{ '/assets/images/profile.jpg' | relative_url }}");
+  background-size: cover;
+
+  /* 🔥 ADJUST THIS TO FOCUS FACE */
+  background-position: center 30%;
+
+  border: 4px solid #00f2fe;
+  margin-bottom: 15px;
+}
+
+  .profile-img {
+  box-shadow: 0 0 25px rgba(0,242,254,0.4);
+}
+  
+/* SECTION CARD */
+.section-card {
+  background: rgba(255,255,255,0.05);
+  padding: 25px;
+  border-radius: 15px;
+  margin-top: 20px;
+}
+
+/* HEADINGS */
+.section-card h2 {
+  margin-bottom: 10px;
+  color: #00f2fe;
+}
+
+/* LIST STYLE */
+.section-card ul {
+  padding-left: 20px;
+}
+
+.section-card li {
+  margin: 6px 0;
+}
+
+/* HOVER EFFECT */
+.section-card:hover {
+  transform: translateY(-5px);
+  transition: 0.3s;
+}
+
+  /* CONTACT PAGE */
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+/* CONTACT CARD */
+.contact-card {
+  background: rgba(255,255,255,0.07);
+  backdrop-filter: blur(15px);
+  padding: 40px;
+  border-radius: 20px;
+  text-align: center;
+  width: 400px;
+  transition: 0.3s;
+}
+
+/* HOVER EFFECT */
+.contact-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 25px rgba(0,242,254,0.3);
+}
+
+/* TITLE */
+.contact-card h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+/* CONTACT ITEMS */
+.contact-item {
+  margin: 12px 0;
+  font-size: 18px;
+}
+
+/* LINKS */
+.contact-item a {
+  color: #00f2fe;
+  text-decoration: none;
+}
+
+.contact-item a:hover {
+  text-decoration: underline;
+}
+
+  
+</style>
+</head>
+
+<body>
+
+<nav class="navbar">
+  <a href="{{ '/' | relative_url }}">Home</a>
+  <a href="{{ '/blog/' | relative_url }}">My Journey</a>
+  <a href="{{ '/about/' | relative_url }}">About</a>
+  <a href="{{ '/contact/' | relative_url }}">Contact</a>
+</nav>
+
+<div class="container fade">
+  {{ content }}
+</div>
+
+</body>
+</html>
