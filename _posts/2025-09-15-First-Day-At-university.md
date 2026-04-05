@@ -4,7 +4,7 @@ date: 2026-01-01 10:00:00 +0500
 categories: [University Life] 
 tags: [first day, campus, student] 
 image:
-  path: /assets/img/first-day -at-uni-by-fakhar.jpeg
+  path: /assets/img/first-day-at-uni-by-fakhar.jpg
   alt: Daily student routine
 ---
 
@@ -14,7 +14,7 @@ image:
 ### 1. Feeling Nervous and Excited
 Most students feel a mix of excitement and nervousness as they enter a completely new environment.
 <p align="center">
-  <img src="/assets/img/first-day -at-uni-by-fakhar.jpeg" alt="title" width="900"/>
+  <img src="/assets/img/first-day-at-uni-by-fakhar.jpg" alt="title" width="900"/>
 </p>
 ### 2. Exploring the Campus
 Walking around the campus helps students become familiar with classrooms, labs, and facilities.
