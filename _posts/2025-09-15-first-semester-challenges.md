@@ -2,6 +2,9 @@
 title: "First Symester Challenges"
 date: 2025-09-15 
 categories: [challenges , faced]
+image:
+  path: /assets/img/routine-1.jpg
+  alt: Daily student routine
 ---
 ## ⚡ First Semester Challenges
 
